@@ -9,6 +9,8 @@ Javascript继承方式总结
 
 [2.构造函数继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo2)
 
+[3.组合继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo3)
+
 
 ## 参考
 
