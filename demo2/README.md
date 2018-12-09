@@ -50,7 +50,7 @@ console.log(instance3.getName())
 ><font color="#DC143C" face="微软雅黑">TypeError: instance3.getName is not a function</font>
 
 
-暴露出一个问题：父类原型上的方法对子类不可见，即子类无法继承父类的原型方法，只有在构造函数中定义的方法才可以被继承
+暴露出问题：`父类原型上的方法对子类不可见，即子类无法继承父类的原型方法，只有在构造函数中定义的方法才可以被继承`
 
 ```javascript
 function Base (name) {

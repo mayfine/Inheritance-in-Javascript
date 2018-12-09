@@ -7,6 +7,8 @@ Javascript继承方式总结
 
 [1.原型链继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo1)
 
+[2.构造函数继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo2)
+
 
 ## 参考
 
