@@ -13,6 +13,8 @@ Javascript继承方式总结
 
 [4.原型式继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo4)
 
+[5.寄生式继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo5)
+
 
 ## 参考
 
