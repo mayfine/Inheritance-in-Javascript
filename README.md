@@ -11,6 +11,8 @@ Javascript继承方式总结
 
 [3.组合继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo3)
 
+[4.原型式继承](https://github.com/mayfine/Inheritance-in-Javascript/tree/master/demo4)
+
 
 ## 参考
 
