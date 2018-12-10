@@ -39,7 +39,7 @@ console.log('yetAnotherPerson: ')
 console.log(yetAnotherPerson)
 ```
 
-![](https://raw.githubusercontent.com/mayfine/Inheritance-in-Javascript/master/images/res_5.png)
+![](https://github.com/mayfine/Inheritance-in-Javascript/blob/master/images/res_5.png)
 
 可以看出 `friends` 实现了共享，因为通过`object`传入的参数是引用类型，新实例的原型上只是挂着共享对象的副本。另一方面，对 `name` 的赋值不会影响原型链上的 `name`，而是发生在构造函数内。
 
@@ -73,7 +73,7 @@ var yetAnotherPerson2 = Object.create(person, {
 console.log(yetAnotherPerson2)
 ```
 
-![](https://raw.githubusercontent.com/mayfine/Inheritance-in-Javascript/master/images/res_6.png)
+![](https://github.com/mayfine/Inheritance-in-Javascript/blob/master/images/res_6.png)
 
 综上，可以看出原型式继承方式应该适合那种需多端同步信息的，始终保持信息一致的场景，所以考虑要用继承时，需根据各类继承的特点谨慎选择，以免采坑。
 
