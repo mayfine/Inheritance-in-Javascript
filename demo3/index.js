@@ -12,11 +12,11 @@ Base.prototype.getName = function () {
 }
 
 function Student (name) {
-    // 继承属性
+    // 继承属性（第一次调用）
     Base.call(this, name)
 }
 
-// 继承方法
+// 继承方法（第二次调用）
 Student.prototype = new Base()
 
 var instance1 = new Student('mary')
